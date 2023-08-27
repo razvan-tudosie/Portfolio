@@ -52,6 +52,4 @@
 
 <script setup>
 import projects from '/src/data.json'
-
-console.log(projects);
 </script>
