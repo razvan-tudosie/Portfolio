@@ -2,7 +2,9 @@
     {
         "name": "The Travel Quest",
         "assets": "TheTravelQuest",
-        "assetsCount": 2,
+        "assetsCount": 4,
+        "color": "bg-lime-100",
+        "logo": "Logo-thetravelquest.svg",
         "intro": "Treasure hunt around the world, on all 7 continents",
         "summary": "The Travel Quest is a treasure hunt around the world, on all 7 continents, based on a mobile application that allows you to advance in the adventure, alone or within a team",
         "role": "Senior Product Designer",
@@ -16,7 +18,9 @@
     {
         "name": "The Travel Quest",
         "assets": "TheTravelQuest",
-        "assetsCount": 2,
+        "assetsCount": 4,
+        "color": "bg-sky-100",
+        "logo": "Logo-thetravelquest.svg",
         "intro": "Treasure hunt around the world, on all 7 continents",
         "summary": "The Travel Quest is a treasure hunt around the world, on all 7 continents, based on a mobile application that allows you to advance in the adventure, alone or within a team",
         "role": "Senior Product Designer",
@@ -25,11 +29,14 @@
             "UI Design in Figma",
             "Prototype in Figma",
             "UX"
-        ]    },
+        ]
+    },
     {
         "name": "The Travel Quest",
         "assets": "TheTravelQuest",
-        "assetsCount": 2,
+        "assetsCount": 4,
+        "color": "bg-teal-100",
+        "logo": "Logo-thetravelquest.svg",
         "intro": "Treasure hunt around the world, on all 7 continents",
         "summary": "The Travel Quest is a treasure hunt around the world, on all 7 continents, based on a mobile application that allows you to advance in the adventure, alone or within a team",
         "role": "Senior Product Designer",
@@ -38,6 +45,6 @@
             "UI Design in Figma",
             "Prototype in Figma",
             "UX"
-        ]    }
-    
+        ]
+    }    
 ]
