@@ -18,13 +18,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: ${{ matrix.os }}
-
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node: [14]
+    runs-on: ubuntu-latest
 
     steps:
       # Check out master branch
@@ -35,22 +29,24 @@ jobs:
       - name: Setup node env
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node }}
+          node-version: "16"
 
       # Install all dependencies needed to build our documentation
       - name: Install dependencies
         # Referencing our docs directory here
-        run: npm
+        run: npm install
 
       # The generate command is used to invoke Nuxt static site generation
       - name: Generate
         run: npm run generate
-
-      # Pushes the files to a branch called "gh-pages" that will be used as deployment branch
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          # This token is automatically invoked
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # Nuxt export the statically generated files in the dist directory by default
-          publish_dir: ./dist
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
