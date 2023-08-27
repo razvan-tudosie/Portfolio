@@ -17,7 +17,7 @@
         </div>
 
         <div class="visible sm:invisible justify-center py-4 px-8 my-4 text-xl text-center">
-            <a href="#">Download Resume</a>
+            <!-- <a href="#">Download Resume</a> -->
         </div>
     </div>
 

@@ -6,7 +6,7 @@
                 <NuxtLink class="text-md text-xl" to="/"><strong>Razvan</strong> Tudosie</NuxtLink>
             </div>
             <div class="invisible sm:visible">
-                <a href="#">Download Resume</a>
+                <!-- <a href="#">Download Resume</a> -->
             </div>
         </nav>
     </header>
