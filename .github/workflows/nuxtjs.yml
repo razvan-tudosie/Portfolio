@@ -67,8 +67,10 @@ jobs:
             ${{ runner.os }}-nuxt-build-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+
       - name: Static HTML export with Nuxt
-        run: ${{ steps.detect-package-manager.outputs.manager }} run generate
+        run: NUXT_APP_BASE_URL=https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }} ${{ steps.detect-package-manager.outputs.manager }} run generate
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
