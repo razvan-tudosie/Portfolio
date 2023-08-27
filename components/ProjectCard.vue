@@ -1,7 +1,6 @@
 <template>
     <div class="mb-10 md:mb-20">
-        <div class="bg-teal-100 invisible"></div>
-        <div :class="`${project.color} rounded-3xl p-8`">
+        <div :class="cardClasses">
             <img class="w-20 mb-2" :src="`/images/projects/${project.assets}/${project.logo}`" :alt="`Logo ${project.name}`">
             <h2 class="text-xl mb-4">{{ project.name }}</h2>
             <h3 class="text-4xl md:w-2/4 mb-8">{{ project.intro }}</h3>
@@ -38,10 +37,16 @@
 </template>
 
 <script setup>
-defineProps({
-    project: {
-        type: Object,
-        required: true
-    },
+import { computed } from 'vue';
+
+const props = defineProps({
+  project: {
+    type: Object,
+    required: true
+  }
+});
+
+const cardClasses = computed(() => {
+  return `${props.project.color} rounded-3xl p-8`;
 });
 </script>
