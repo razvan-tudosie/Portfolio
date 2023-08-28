@@ -11,4 +11,8 @@
         </nav>
     </header>
     <NuxtPage />
+
+    <footer class="container max-w-6xl mx-auto flex justify-center py-16 px-8 text-bold">
+        <p>&copy; {{ new Date().getFullYear() }} Designed and built by Razvan Tudosie</p>
+    </footer>
 </template>

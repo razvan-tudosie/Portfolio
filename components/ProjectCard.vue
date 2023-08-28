@@ -4,11 +4,13 @@
             <img class="w-20 mb-2" :src="`/projects/${project.assets}/${project.logo}`" :alt="`Logo ${project.name}`">
             <h2 class="text-xl mb-4">{{ project.name }}</h2>
             <h3 class="text-4xl md:w-2/4 mb-8">{{ project.intro }}</h3>
-            <div class="flex flex-row gap-8 justify-center">
-                <div v-for="index in project.assetsCount" :key="index">
-                    <img :src="`/projects/${project.assets}/image_${index}.png`" alt="Project image">
+
+            <div class="overflow-x-auto flex">
+                <div class="image flex-none py-6 px-3 first:pl-6 last:pr-6" v-for="index in project.assetsCount" :key="index">
+                    <img class="" :src="`/projects/${project.assets}/image_${index}.png`" alt="Project image">
                 </div>
-            </div>
+            </div> 
+        
         </div>
         
         <div class="flex flex-wrap mt-10 md:gap-16 gap-8 font-light text-lg">
@@ -50,3 +52,10 @@ const cardClasses = computed(() => {
   return `${props.project.color} rounded-3xl p-8`;
 });
 </script>
+
+<style>
+    .image img {
+        height:400px !important
+    }
+    
+</style>
