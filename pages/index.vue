@@ -52,4 +52,15 @@
 
 <script setup>
 import projects from '/src/data.json'
+
+const title = ref('Razvan Tudosie Design Portfolio')
+const description = ref('Selected works of Senior Product Designer, Razvan Tudosie.')
+
+useHead({
+    title,
+    meta: [{
+        name: 'description',
+        content: description
+    }]
+})
 </script>
