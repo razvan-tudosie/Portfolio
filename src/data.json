@@ -10,8 +10,10 @@
         "role": "Senior Product Designer",
         "skills": [
             "Wireframeing",
-            "UI Design in Figma",
-            "Prototype in Figma"
+            "User Flows",
+            "Wire Flows",
+            "UI Design",
+            "Prototype"
         ]
     },
     {
@@ -25,8 +27,8 @@
         "role": "Senior Product Designer & Co-Founder",
         "skills": [
             "Wireframeing",
-            "UI Design in Figma",
-            "Prototype in Figma",
+            "UI Design",
+            "Prototype",
             "Frontend Development",
             "Backend Developement"
         ]
