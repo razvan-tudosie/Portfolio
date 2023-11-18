@@ -1,11 +1,28 @@
 [
     {
+        "name": "LaFantana",
+        "assets": "LaFantana",
+        "assetsCount": 1,
+        "color": "bg-sky-100",
+        "logo": "Logo-LaFantana.svg",
+        "intro": "Leading provider of drinkable water services in Romania.",
+        "summary": "La Fantana is revamping their website and integrating an efficient e-commerce platform to provide a user-friendly experience and simplify the purchasing process for their hydration solutions.",
+        "role": "Product Designer",
+        "skills": [
+            "Wireframeing",
+            "Wire Flows",
+            "UI Design",
+            "Prototype",
+            "Design System"
+        ]
+    },
+    {
         "name": "The Travel Quest",
         "assets": "TheTravelQuest",
         "assetsCount": 4,
         "color": "bg-lime-100",
         "logo": "Logo-thetravelquest.svg",
-        "intro": "Treasure hunt around the world, on all 7 continents",
+        "intro": "Treasure hunt around the world, on all 7 continents.",
         "summary": "The Travel Quest is a treasure hunt around the world, on all 7 continents, based on a mobile application that allows you to advance in the adventure, alone or within a team",
         "role": "Product Designer",
         "skills": [

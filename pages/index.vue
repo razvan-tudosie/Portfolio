@@ -54,7 +54,7 @@
 import projects from '/src/data.json'
 
 const title = ref('Razvan Tudosie Design Portfolio')
-const description = ref('Selected works of Senior Product Designer, Razvan Tudosie.')
+const description = ref('Selected works of Product Designer, Razvan Tudosie.')
 
 useHead({
     title,
