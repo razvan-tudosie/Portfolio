@@ -55,7 +55,7 @@ const cardClasses = computed(() => {
 
 <style>
     .image img {
-        height:400px !important
+        height:580px !important
     }
     
 </style>
