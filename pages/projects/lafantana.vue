@@ -40,7 +40,7 @@
                 <div class="w-1/2 pb-4">
                     <h4>
                         <p>My Role</p>
-                        <p class="text-xl">Product Designer</p>
+                        <p class="text-xl">UI/UX Designer</p>
                     </h4>
                 </div>
                 <div class="">
@@ -80,26 +80,15 @@
     <div class="container max-w-6xl mx-auto p-8 md:flex">
         <div class="md:pr-8">
             <h3 class="text-3xl mb-8">Harmonizing LaFantana's Digital Story:</h3>
-            <p class="mb-4"><strong>Problem:</strong> LaFantana's commitment to excellence is currently split across two platforms—an e-commerce site and a presentation website. Unifying these into a single, cohesive platform will streamline the user experience and present a unified and compelling brand narrative.</p>
+            <p class="mb-4"><strong>Problem:</strong> LaFantana's commitment to excellence is currently split across two platforms—an e-commerce site and a presentation website.</p>
             <p class="mb-4"><strong>Impact:</strong> A consolidated online presence will enhance brand coherence, making it easier for users to engage with and understand LaFantana's offerings, fostering a positive and consistent brand image.</p>
         </div>
         <div class="md:pl-8">
             <h3 class="text-3xl mb-8">Elevating LaFantana's Online Presence</h3>
-            <p class="mb-4"><strong>Problem:</strong> The current LaFantana website, while having faithfully served the company, is ready for a transformation that reflects the vibrant evolution and success it has experienced. Updating the online presence will ensure a dynamic and contemporary representation.</p>
+            <p class="mb-4"><strong>Problem:</strong> The current LaFantana website, while having faithfully served the company, is ready for a transformation that reflects the vibrant evolution and success it has experienced.</p>
             <p class="mb-4"><strong>Impact:</strong>  By revitalizing the website, LaFantana can confidently showcase its journey and current strengths, creating a positive impression on visitors and potential clients.</p>
         </div>
     </div>
-
-    <div class="container max-w-6xl mx-auto p-8 md:flex">
-        <div class="md:w-2/5 md:pr-4">
-            <h3 class="text-4xl mb-8">Why solve these problems?</h3>
-        </div>
-        <div class="md:flex-1">
-            <div class="mb-4">
-                <p>Addressing LaFantana's website challenges is crucial for its continued success. A revamped site not only sets the company apart in the market but also creates a unified brand identity by merging e-commerce and presentation platforms. Improved user experience contributes to increased engagement and satisfaction, potentially boosting conversion rates and loyalty.</p>
-            </div>
-        </div>
-    </div> 
     
     <div class="container max-w-6xl mx-auto p-8 md:flex">
         <div class="md:w-2/5 md:pr-4">
@@ -168,7 +157,7 @@
 
     <div class="container max-w-2xl mx-auto p-8 md:flex">
         <div class="md:pr-4">
-            <h3 class="text-4xl mb-8">Wireframes</h3>
+            <h3 class="text-4xl mb-8">Structural Outlines</h3>
             <p class="mb-4">After talking with the development team and the client, we decided to keep the same flow as in the e-commerce. In research faze we fount out that almost all users ar split in 2 categories:</p>
             <ul class="list-disc pl-4">
                 <li>Returning users that have a subscription and want to adjust it or renew it</li>
@@ -200,7 +189,7 @@
     
     <div class="container max-w-2xl mx-auto p-8 md:flex">
         <div class="md:pr-4">
-            <h3 class="text-4xl mb-8">Design</h3>
+            <h3 class="text-4xl mb-8">Visual Crafting</h3>
             <p class="mb-4">During the design phase, I worked together with another designer. My primary focus included the development of several key sections, namely: <strong>“My Account”, “My Subscriptions”</strong>, and the <strong>“Subscription Configurator”</strong>. Additionally, I contributed to the design of the checkout process and various other pages, such as the <strong>“login page”, “locations map”</strong>, and the <strong>“help and support”</strong> section.</p>
             <p class="mb-4">Our vision for the website design was to emphasise the visual appeal of the products. We opted for a minimalist design, focusing on the products. To create visual dynamics and highlight the products, we incorporated various coloured shapes. We chose a color palette that closely matches the brand's color saturation.</p>
             <p class="mb-4">To accentuate certain sections or areas, we also introduced elevation by adding shadows that reflect the height and depth of those elements and sections.</p>
