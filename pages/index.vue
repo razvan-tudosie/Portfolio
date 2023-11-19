@@ -10,14 +10,18 @@
                 <img class="w-8" src="/images/icon-email.svg" alt="">
             </a>
             
-            <a class="justify-center  text-2xl border-2 border-slate-700 py-4 px-8 my-4 flex gap-2" href="https://www.linkedin.com/in/tudosierazvan/" target="_blank">
+            <a class="justify-center text-2xl border-2 border-slate-700 py-4 px-8 my-4 flex gap-2" href="https://www.linkedin.com/in/tudosierazvan/" target="_blank">
                 Let's connect
                 <img class="w-8" src="/images/icon-linkedin.svg" alt="">
             </a>
         </div>
 
-        <div class="visible sm:invisible justify-center py-4 px-8 my-4 text-xl text-center">
-            <!-- <a href="#">Download Resume</a> -->
+        <!-- <div class="visible sm:invisible justify-center py-4 px-8 my-4 text-xl text-center">
+            <a href="/docs/Resume - Tudosie Razvan.pdf">Download Resume</a>
+        </div> -->
+
+        <div class="justify-center py-4 px-8 my-4 text-xl text-center">
+            <a href="/docs/Resume - Tudosie Razvan.pdf" target="_blank">Download Resume</a>
         </div>
     </div>
 

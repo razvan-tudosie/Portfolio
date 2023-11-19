@@ -82,11 +82,13 @@
             <h3 class="text-3xl mb-8">Harmonizing LaFantana's Digital Story:</h3>
             <p class="mb-4"><strong>Problem:</strong> LaFantana's commitment to excellence is currently split across two platforms—an e-commerce site and a presentation website.</p>
             <p class="mb-4"><strong>Impact:</strong> A consolidated online presence will enhance brand coherence, making it easier for users to engage with and understand LaFantana's offerings, fostering a positive and consistent brand image.</p>
+            <img class="mx-w-1/5 mx-auto" src="/projects/LaFantana/project/old1.png" alt="">
         </div>
         <div class="md:pl-8">
             <h3 class="text-3xl mb-8">Elevating LaFantana's Online Presence</h3>
             <p class="mb-4"><strong>Problem:</strong> The current LaFantana website, while having faithfully served the company, is ready for a transformation that reflects the vibrant evolution and success it has experienced.</p>
             <p class="mb-4"><strong>Impact:</strong>  By revitalizing the website, LaFantana can confidently showcase its journey and current strengths, creating a positive impression on visitors and potential clients.</p>
+            <img class="mx-w-1/5 mx-auto" src="/projects/LaFantana/project/old2.png" alt="">
         </div>
     </div>
     

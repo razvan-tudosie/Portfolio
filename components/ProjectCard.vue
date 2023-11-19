@@ -10,13 +10,13 @@
                     <img class="" :src="`/projects/${project.assets}/image_${index}.png`" alt="Project image">
                 </div>
             </div> 
-        
         </div>
         
         <div class="flex flex-wrap mt-10 md:gap-16 gap-8 font-light text-lg">
             <div class="md:w-1/2 max-w-xl">
                 <h3 class="text-xl mb-3 text-slate-400">Summary:</h3>
                 <p class="">{{ project.summary }}</p>
+                <NuxtLink class="justify-center border-2 border-slate-700 py-4 px-8 my-4 inline-block" v-if="project.details_page" :to="`/projects/${project.details_page}`">Read the Case Study</NuxtLink>
             </div>
 
             <div class="md:w-1/5">
