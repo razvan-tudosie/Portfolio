@@ -77,7 +77,7 @@
         </h1>
     </div>
 
-    <div class="container max-w-6xl mx-auto p-8 md:flex">
+    <!-- <div class="container max-w-6xl mx-auto p-8 md:flex">
         <div class="md:pr-8">
             <h3 class="text-3xl mb-8">Harmonizing LaFantana's Digital Story:</h3>
             <p class="mb-4"><strong>Problem:</strong> LaFantana's commitment to excellence is currently split across two platforms—an e-commerce site and a presentation website.</p>
@@ -89,6 +89,19 @@
             <p class="mb-4"><strong>Problem:</strong> The current LaFantana website, while having faithfully served the company, is ready for a transformation that reflects the vibrant evolution and success it has experienced.</p>
             <p class="mb-4"><strong>Impact:</strong>  By revitalizing the website, LaFantana can confidently showcase its journey and current strengths, creating a positive impression on visitors and potential clients.</p>
             <img class="mx-w-1/5 mx-auto" src="/projects/LaFantana/project/old2.png" alt="">
+        </div>
+    </div> -->
+
+    <div class="container max-w-6xl mx-auto p-8 md:flex">
+        <div class="md:pr-8">
+            <h3 class="text-3xl mb-8">Harmonizing LaFantana's Digital Story:</h3>
+            <p class="mb-4"><strong>Problem:</strong> LaFatana was operating two separate websites: one for business presentation and another for e-commerce, featuring only a partial product range. This separation leads to inefficiency and client confusion. </p>
+            <img class="mx-w-1/5 mx-auto my-8" src="/projects/LaFantana/project/old1.png" alt="">
+        </div>
+        <div class="md:pl-8">
+            <h3 class="text-3xl mb-8">Elevating LaFantana's Online Presence</h3>
+            <p class="mb-4"><strong>Problem:</strong> The existing LaFantana website, although functional, no longer aligns with the company's dynamic growth and success. There is a need for a website transformation to accurately represent the company's vibrant evolution and achievements.</p>
+            <img class="mx-w-1/5 mx-auto my-8" src="/projects/LaFantana/project/old2.png" alt="">
         </div>
     </div>
     
