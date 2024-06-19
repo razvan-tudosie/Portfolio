@@ -21,16 +21,27 @@
     <div class="max-w-3xl mx-auto p-8">
         <h2 class="md:text-5xl text-4xl py-4">It all began with an ideea</h2>
         <p class="text-lg mt-4">When the Co-Founder approached me, The Travel Quest was just a concept represented by sketches, a small brand book with the logo, typography, and brand colors. I identified key users, mapped out user flows, and developed wireframes. With a clear vision and structure, the design process began, transforming the initial idea into a tangible, engaging app.</p>
+        <img class="mx-auto mt-10" src="/projects/TheTravelQuest/project/image.png" alt="The Travel Quest Design Screens">
     </div>
 
-    <div class="mb-4">
-        <img class="mx-auto" src="/projects/TheTravelQuest/project/image.png" alt="The Travel Quest Design Screens">
-        <img class="mx-auto" src="/projects/TheTravelQuest/project/screens.jpg" alt="The Travel Quest Design Screens">
+    <div class="max-w-3xl mx-auto pb-4 px-8">
+        <h2 class="md:text-5xl text-4xl py-4">Wireframes & Wireflows</h2>
+        <!-- <img class="mx-auto mt-10" src="/projects/TheTravelQuest/project/wireframes.png" alt="The Travel Quest Design Screens">
+        <img class="mx-auto mt-10" src="/projects/TheTravelQuest/project/wireflows.png" alt="The Travel Quest Design Screens"> -->
+    </div>
+
+    <div class="max-w-7xl mx-auto pb-4 px-8">
+        <img class="mx-auto mt-10" src="/projects/TheTravelQuest/project/wireframes.png" alt="The Travel Quest Design Screens">
+        <img class="mx-auto mt-10" src="/projects/TheTravelQuest/project/wireflows.png" alt="The Travel Quest Design Screens">
     </div>
 
     <div class="max-w-3xl mx-auto pt-8 pb-4 px-8">
         <h2 class="md:text-5xl text-4xl py-4">Design Process: Ensuring Ease of Use for All Users</h2>
         <p class="text-lg mt-4">One of the key pain points in the design process was ensuring that The Travel Quest app is easy to use for a diverse audience with varying levels of tech-savviness. To address this, the focus was on creating a design that is simple, intuitive, and familiar to everyone. Through research and careful consideration of user needs, I developed an interface that seamlessly guides users through their adventure, making the treasure hunt accessible and enjoyable for all participants.</p>
+    </div>
+
+    <div class="mb-4 mt-10">
+        <img class="mx-auto" src="/projects/TheTravelQuest/project/screens.jpg" alt="The Travel Quest Design Screens">
     </div>
 
     <div class="max-w-3xl mx-auto pb-8 pt-4 px-8">
